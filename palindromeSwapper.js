@@ -44,5 +44,5 @@ console.log(palindromeSwapper('recacar')); // FALSE
 console.log('=========')
 console.log(palindromeSwapper('rcaecar')); // TRUE
 console.log(palindromeSwapper('rcaecra')); // FALSE
-console.log(palindromeSwapper('rrcecaa')); // TRUE
+console.log(palindromeSwapper('kasur rsuak')); // TRUE
 
