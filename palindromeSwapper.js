@@ -29,8 +29,8 @@ function palindromeSwapper(str) {
  * @returns {boolean} true bila kata adalah palindrom
  */
 function isPalindrome(str) {
-  if (str.split('').reverse().join() === str) return console.log(true);
-  return console.log(false);
+  if (str.split('').reverse().join() === str) return true;
+  return false;
 }
 
 console.log(palindromeSwapper('arcecar')); // TRUE
