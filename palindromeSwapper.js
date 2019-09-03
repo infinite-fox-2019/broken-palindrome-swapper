@@ -6,11 +6,12 @@
  * @returns {boolean} true bila kata yang di-swap adalah palindrom
  */
 function palindromeSwapper(str) {
+  // arcecar
   let newStr = '';
   for (var i = 0; i < str.length; i++) {
-    for (var j = 0; j < str.length; i++) {
+    for (var j = 0; j < str.length; j++) {
       if (i === j) {
-        newStr += str[j++];
+        newStr += str[j+1];
         newStr += str[j];
         j++;
       } else {
@@ -29,8 +30,8 @@ function palindromeSwapper(str) {
  * @returns {boolean} true bila kata adalah palindrom
  */
 function isPalindrome(str) {
-  if (str.split('').reverse().join() === str) return console.log(true);
-  return console.log(false);
+  if (str.split('').reverse().join('') === str) return true;
+  return false;
 }
 
 console.log(palindromeSwapper('arcecar')); // TRUE
